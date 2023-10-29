@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: trebuchet MS;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 10px;
+    height: 100%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.addItem{
+    display: flex;
+    flex-direction: column;
+}
+#enterItem{
+    padding: 8px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#addItem{
+    height: 30px;
+    width: 110px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+#addItem:hover{
+    color: gray;
+}
+.filter{
+    font-weight: lighter;
+    font-size: 20px;
+    color: gray;
+}
+.listItems{
+    border-top: 1px solid black;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remove{
+    font-size: 20px;
+    border: none;
+    font-weight: bolder;
+    color: red;
+    background-color: white;
+}
+.remove:hover{
+    color: rgb(224, 122, 122);
+}
+#clearAll{
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+#clearAll:hover{
+    color: gray;
+}

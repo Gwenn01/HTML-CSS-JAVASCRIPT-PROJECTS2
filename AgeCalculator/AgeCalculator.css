@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: trebuchet MS;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 600px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h2{
+    font-size: 40px;
+}
+#input-birthday{
+    width: 280px;
+}
+#calculate-age{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(85, 85, 237);
+    color: white;
+    padding: 8px;
+}
+#calculate-age:hover{
+    color: gray;
+}
+#your-age{
+    font-size: 25px;
+}

@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: trebuchet MS;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+h1{
+    font-size: 80px;
+}
+.dice-pic{
+    height: 50px;
+    width: 50px;
+}
+#roll-dice{
+    background-color: #47a5c4;
+    color: white;
+    padding: 20px 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#roll-dice:hover{
+    color: gray;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.roll{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}

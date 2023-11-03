@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: trebuchet MS;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+h2{
+    text-align: center;
+}
+.color-container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.colors{
+    height: 100px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin-left: 30px;
+    transition: all ease 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.colors:hover{
+    height: 110px;
+    width: 210px;
+}
+button{
+    height: 40px;
+    width: 200px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+}
+button:hover{
+    color: gray;
+}

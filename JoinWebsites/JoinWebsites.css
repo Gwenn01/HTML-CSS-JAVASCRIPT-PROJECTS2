@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: trebuchet MS;
+    background-color: blanchedalmond;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+#join-now{
+    padding: 10px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(237, 218, 194);
+}
+#join-now:hover{
+    color: gray;
+}
+.sign-up{
+    position: absolute;
+    height: 350px;
+    width: 500px;
+    border: 3px solid black;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    transition: all ease 1s;
+}
+#remove{
+    margin-top: 10px;
+    margin-left: 450px;
+    background-color: blanchedalmond;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#remove:hover{
+    color: red;
+}
+input{
+    height: 30px;
+    width: 300px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+#submit{
+    margin-bottom: 40px;
+    height: 30px;
+    width: 320px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: darksalmon;
+    color: white;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+</head>
+<link rel="stylesheet" href="converter.css">
+<body>
+    <div class="container">
+        <h1>Converter</h1>
+        <div class="inputs">
+            <input type="number" placeholder="Enter Decimal" id="decimal">
+            <select name="option" id="convertOption">
+                <option value="binary">Binary</option>
+                <option value="octal">Octal</option>
+                <option value="hexa">Hexadecimal</option>
+            </select>
+            <input type="text" placeholder="RESULT" id="result">
+        </div>
+        <div class="function">
+            <button id="convert">Convert</button>
+            <button id="clear">Clear</button>
+        </div>
+    </div>
+</body>
+<script src="converter.js"></script>
+</html>

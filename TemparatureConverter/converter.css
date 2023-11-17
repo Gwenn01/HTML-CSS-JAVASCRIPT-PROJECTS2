@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    font-family: trebuchet MS;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkseagreen;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 50px;
+    background-color: lightgreen;
+}
+.celcius, .farenheit, .kelvin{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    font-weight: bold;
+    text-align: center;
+}

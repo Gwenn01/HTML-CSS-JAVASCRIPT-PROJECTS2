@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    font-family: trebuchet MS;
+    background-color: cadetblue;
+    color: white;
+}
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container{
+    margin: 10px;
+    position: relative;
+}
+.note, button{
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+.container-note{
+    display: inline-block;
+}
+.note{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    resize: none;
+    padding: 5px;
+    font-size: 20px;
+}
+button{
+    height: 215px;
+    width: 215px;
+    position: absolute;
+    margin: 20px;
+    padding: 5px;
+    font-size: 80px;
+    font-weight: bolder;
+    display: block;
+}
+button:hover{
+    color: gray;
+}

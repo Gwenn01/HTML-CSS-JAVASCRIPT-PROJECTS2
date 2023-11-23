@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: navy;
+}
+.container{
+    height: 300px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: skyblue;
+    text-align: justify;
+}
+input{
+    padding: 5px 10px;
+    border: 3px solid black;
+    box-shadow: 0 0 10px;
+}
